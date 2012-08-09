@@ -1,0 +1,150 @@
+/* Colors Reference
+Primary
+dark green #00782D
+lighter dark green #238B49
+green #00B945
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #00782D;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin: 0;
+	padding: 15px 20px 0;
+	color: #fff;
+	text-shadow: 2px 2px 2px #111;
+}
+	
+h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin: 0;
+	padding: 15px 20px 0;
+}
+
+p {
+	font-family: courier, monospace;
+	margin: 0 20px;
+}
+
+header {
+	background: #63DC90;
+	width: 760px;
+	border-bottom: solid;
+	float: left;
+}
+
+/* Main Navigation */
+nav ul {
+	width: 200px;
+	margin: 0 auto;
+	font-family: courier, monospace;
+	background: #63DC90;
+	border-bottom: solid;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	width: 100px;
+	background: #63DC90;
+	float: left;
+}
+
+nav a {
+	text-decoration: none;
+	background: #63DC90;
+	display: block;
+	height: 88px;
+	line-height: 88px;
+	text-align: center;
+}
+
+nav a:hover {
+	color: #fff;
+	background: #00B945;
+}
+
+nav a:active {
+	color: #fff;
+	background: #FF8500;
+}
+
+/* Introduction Content */
+#paintedturtle {
+	float: left;
+}
+
+#intro {
+	width: 565px;
+	float: left;
+}
+
+#news {
+	clear: left;
+}
+
+#facts {
+	width: 565px;
+	float: left;
+}
+
+#resources {
+	width: 395px;
+	float: left;
+}
+
+#tips {
+	clear: both;
+}
+
+footer {
+}
+
+header p, footer p {
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+<!--Link States-->
+/* Color Swatch
+Navy Blue #024C68
+Orangeish #FF8500
+Cream #FFBC73
+Redish #FF2C00 */
+
+a:link {
+	color: #024C68;
+}
+a:visited {
+	color: #FF8500;
+}
+a:hover {
+	color: #FFBC73;
+}
+a:active {
+	color: #FF2C00;
+}
+
+section ul li {
+	font-family: courier, monospace;
+	margin: 0;
+	padding: 0;
+	list-style-type: circle;
+}
+
+#resources ol li {
+	font-family: courier, monospace;
+	margin: 0;
+	padding: 0;
+}
+

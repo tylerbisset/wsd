@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8" />
 		<title>Turtles Are Awesome!</title>
+		<link rel='stylesheet' href='css/main.css'>
 	</head>
 	
 	<body>
+		<div id='wrapper'>
+		
 		<header>
 			<h1>Turtles Are Awesome!</h1>
-			
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-				</ul>
-			</nav>
+			<p>Your resource for all things turtles.</p>
 		</header>
 		
-			<img src="images/paintedturtle.jpg">
-			<h2>What Makes Turtles So Awesome?</h2>
-			
-			<div>
-				<p>Turtles are one of the oldest reptile groups on the planet. They are older 
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		
+		<div id='paintedturtle'>
+			<img src="images/paintedturtle.jpg" alt="A Painted Turtle">
+		</div> <!-- painted turtle -->
+		
+		<section id='intro'>
+			<h2>What Makes Turtles So Awesome?</h2>	
+			<p>Turtles are one of the oldest reptile groups on the planet. They are older 
 				than lizards, snakes and even crocodiles. Turtles are part of the reptile order
 				Testudines characterized by the shell they have that acts as a shield. The 
 				smallest turtles in the world only grow to four inches and the largest can reach 
-				close to seven feet and over 2000 pounds.</p>
-			</div>
+				close to seven feet and over 2000 pounds. They truly are 21st century dinosaurs!</p>
+		</section>
 			     
-		<article>
+		<div id='news'>
 			<h2>Recents News</h2>
-				<p>Stay tuned for news updates and articles about turtles!</p>
-		</article>
+				<article>
+				<p>Sad news today, Lonesome George, the Galapagos Tortoise has passed away. George
+				was the last known individual of his subspecies, <em>Geochelone abingdoni</em>, 
+				also called the Pinta Island tortoise. George was estimated to be around 100 years
+				old at the time of his death. To read more about this tragic even visit
+				<a href='http://news.nationalgeographic.com/news/2012/06/120625-lonesome-george-tortoise-last-extinct-galapagos-science-animals/'>
+				this link</a>.</p>
+				</article>
+		</div>
 		
+		<section id='facts'>
 			<h2>Fun Facts About Turtles</h2>
 				<ul>
 					<li>Turtles existed about <strong>220 million</strong> years ago.</li>
@@ -40,17 +56,9 @@
 					<li>The shell of a turtle is made up of 60 different bones.</li>
 					<li>Several species of turtles can live to be over a hundred years of age.</li>
 				</ul>
-			
-			<h2>Turtle Gallery</h2>
-				<ul>
-					<li><img src="images/mapturtle.jpg"></li>
-					<li><img src="images/spikeyturtle.jpg"></li>
-					<li><img src="images/greenbabyturtle.jpg"></li>
-					<li><img src="images/seaturtle.jpg"></li>
-					<li><img src="images/matamata.jpg"></li>
-					<li><img src="images/babyseaturtle.jpg"></li>
-				</ul>
-				
+		</section>
+		
+		<aside id='resources'>		
 			<h2>The Best Turtle Resources</h2>
 				<ol>
 					<li><a href="http://en.wikipedia.org/wiki/Turtle">Turtle Wiki</a></li>
@@ -58,14 +66,21 @@
 					<li><a href="http://www.eturtlefacts.com">E-Turtle Facts</a></li>
 					<li><a href="http://market.kingsnake.com">Reptile Market at Kingsnake.com</a></li>
 				</ol>
-				
+		</aside>
+		
+		<div id='tips'>		
 			<h2>Sign Up For Awesome Turtle Tips</h2>
 				<p>Sign up for our newsletter and you will receive benefits like the <em>Species of the Week</em>
 				and other great information about turtles and turtle care.</p>
+		</div>
 				
 		<footer>
+			<h2>Thanks for Visiting!</h2>
 			<p>I hope you have learned why turtles are awesome and will consider owning 
 			one yourself! All rights reserved. &copy; 2012</p>
 		</footer>
+		
+	</div> <!--wrapper-->
+	
 	</body>
 </html>
