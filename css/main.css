@@ -100,6 +100,7 @@ nav a:active {
 
 #intro h2, #intro p {
 	color: #fff;
+	text-shadow: 2px 2px 2px #111;
 }
 
 /* News Content */
@@ -200,8 +201,6 @@ header p, footer p {
 }
 
 #gallery ul {
-	border: 5px solid #fff;
-	border-radius: 40px;
 	list-style-type: none;
 	margin: 0 auto;
 	width: 905px;
