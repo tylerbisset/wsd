@@ -1,5 +1,4 @@
-/* Colors Reference
-Primary
+/* Colors Swatch
 dark green #00782D
 lighter dark green #238B49
 green #00B945
@@ -18,6 +17,7 @@ body {
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
+	background: #238B49;
 }
 
 h1 {
@@ -42,6 +42,7 @@ p {
 header {
 	background: #63DC90;
 	width: 760px;
+	height: 88px;
 	border-bottom: solid;
 	float: left;
 }
@@ -69,7 +70,7 @@ nav a {
 	color: #FF8500;
 	background: #63DC90;
 	display: block;
-	height: 88px;
+	/*height: 88px;*/
 	line-height: 88px;
 	text-align: center;
 }
@@ -161,7 +162,26 @@ section ul li {
 	line-height: 30px;
 }
 
-#gallery {
+/* Image Gallery */
+#gallery ul {
+	border: 5px solid #fff;
+	border-radius: 40px;
 	list-style-type: none;
+	margin: 0 auto;
+	width: 905px;
+	padding: 5px;
+	overflow: hidden;
+	
 }
 
+#gallery li {
+	float: left;
+	margin-left: 5px;
+}
+
+#gallery img {
+	border: 10px solid #fff;
+	border-radius: 40px;
+	height: 200px;
+	width: 200px;
+}
