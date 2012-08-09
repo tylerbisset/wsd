@@ -78,12 +78,15 @@ nav a:active {
 }
 
 /* Introduction Content */
+#main {
+	background-image: url('../images/leaftexture.png');
+	overflow: hidden;
+}
+
 #paintedturtle {
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	margin-bottom: 10px;
-	background: #238B49;
 	border-bottom: 3px solid;
 }
 
@@ -92,9 +95,11 @@ nav a:active {
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	margin-bottom: 10px;
-	background: #238B49;
 	border-bottom: 3px solid;
+}
+
+#intro h2, #intro p {
+	color: #fff;
 }
 
 /* News Content */
@@ -103,6 +108,7 @@ nav a:active {
 	padding-bottom: 20px;
 	margin-bottom: 10px;
 	border-bottom: 3px solid;
+	background: #238B49;
 }
 
 #news p {
