@@ -11,7 +11,9 @@ Redish #FF2C00
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url('../images/greengradient.png');
 	background-color: #00782D;
+	background-repeat: repeat-x;
 }
 
 #wrapper {
@@ -97,7 +99,15 @@ nav a:active {
 
 /* News Content */
 #news {
-	clear: left;
+	clear: both;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#news p {
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	-o-column-count: 3;
 }
 
 /* Facts Content */
@@ -109,6 +119,7 @@ nav a:active {
 /* Resources Content */
 #resources {
 	width: 395px;
+	background: #00782D;
 	float: left;
 }
 
@@ -170,8 +181,7 @@ section ul li {
 	margin: 0 auto;
 	width: 905px;
 	padding: 5px;
-	overflow: hidden;
-	
+	overflow: hidden;	
 }
 
 #gallery li {
