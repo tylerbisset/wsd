@@ -3,6 +3,10 @@ Primary
 dark green #00782D
 lighter dark green #238B49
 green #00B945
+Navy Blue #024C68
+Orangeish #FF8500
+Cream #FFBC73
+Redish #FF2C00
 */
 
 body {
@@ -62,6 +66,7 @@ nav li {
 
 nav a {
 	text-decoration: none;
+	color: #FF8500;
 	background: #63DC90;
 	display: block;
 	height: 88px;
@@ -89,25 +94,31 @@ nav a:active {
 	float: left;
 }
 
+/* News Content */
 #news {
 	clear: left;
 }
 
+/* Facts Content */
 #facts {
 	width: 565px;
 	float: left;
 }
 
+/* Resources Content */
 #resources {
 	width: 395px;
 	float: left;
 }
 
+/* Sign Up Content */
 #tips {
+	padding-bottom: 15px;
 	clear: both;
 }
 
 footer {
+	border-top: solid;
 }
 
 header p, footer p {
@@ -115,23 +126,24 @@ header p, footer p {
 	padding-bottom: 15px;
 }
 
-<!--Link States-->
-/* Color Swatch
-Navy Blue #024C68
-Orangeish #FF8500
-Cream #FFBC73
-Redish #FF2C00 */
-
-a:link {
-	color: #024C68;
+/* Link States */
+#resources a, #news a {
+	text-decoration: none;
 }
-a:visited {
+
+#resources a:link, #news a:link {
 	color: #FF8500;
 }
-a:hover {
+
+#resources a:visited, #news a:visited {
+	color: #024C68;
+}
+
+#resources a:hover, #news a:hover {
 	color: #FFBC73;
 }
-a:active {
+
+#resources a:active, #news a:active {
 	color: #FF2C00;
 }
 
@@ -146,5 +158,10 @@ section ul li {
 	font-family: courier, monospace;
 	margin: 0;
 	padding: 0;
+	line-height: 30px;
+}
+
+#gallery {
+	list-style-type: none;
 }
 
