@@ -1,13 +1,4 @@
-/* Colors Swatch
-dark green #00782D
-lighter dark green #238B49
-green #00B945
-Navy Blue #024C68
-Orangeish #FF8500
-Cream #FFBC73
-Redish #FF2C00
-*/
-
+/* Global */
 body {
 	margin: 0;
 	padding: 0;
@@ -126,15 +117,31 @@ nav a:active {
 	float: left;
 }
 
+section ul li {
+	font-family: courier, monospace;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	list-style: url('../images/square.png');
+}
+
 /* Resources Content */
 #resources {
 	width: 395px;
 	float: left;
 }
 
+#resources ol li {
+	font-family: courier, monospace;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
 /* Sign Up Content */
 #tips {
 	padding-bottom: 15px;
+	border-top: 3px solid;
 	clear: both;
 	width: 565px;
 	float: left;
@@ -142,12 +149,12 @@ nav a:active {
 
 #form {
 	width: 395px;
-	border: 1px solid #fff
-	border-radius: 40px;
+	border-top: 3px solid;
 	float: left;
 	padding-bottom: 15px;
 }
 
+/* Footer */
 footer {
 	border-top: solid;
 	background: #63DC90;
@@ -178,21 +185,6 @@ header p, footer p {
 
 #resources a:active, #news a:active {
 	color: #FF2C00;
-}
-
-section ul li {
-	font-family: courier, monospace;
-	margin: 0;
-	padding: 0;
-	line-height: 1.5;
-	list-style: url('../images/square.png');
-}
-
-#resources ol li {
-	font-family: courier, monospace;
-	margin: 0;
-	padding: 0;
-	line-height: 30px;
 }
 
 /* Image Gallery */
