@@ -80,6 +80,7 @@ nav a:active {
 /* Introduction Content */
 #main {
 	background-image: url('../images/leaftexture.png');
+	border-bottom: 3px solid;
 	overflow: hidden;
 }
 
@@ -87,7 +88,6 @@ nav a:active {
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	border-bottom: 3px solid;
 }
 
 #intro {
@@ -95,7 +95,6 @@ nav a:active {
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	border-bottom: 3px solid;
 }
 
 #intro h2, #intro p {
