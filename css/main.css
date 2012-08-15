@@ -1,6 +1,7 @@
 /* Global */
 body {
-	margin: 0;
+	max-width: 960px;
+	margin: 0 auto;
 	padding: 0;
 	background-image: url('../images/greengradient.png');
 	background-color: #00782d;
@@ -8,7 +9,7 @@ body {
 }
 
 #wrapper {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -33,7 +34,7 @@ p {
 
 header {
 	background: #63DC90;
-	width: 760px;
+	width: 79.16666666667%/*760px*/;
 	height: 88px;
 	border-bottom: solid;
 	float: left;
@@ -41,7 +42,7 @@ header {
 
 /* Main Navigation */
 nav ul {
-	width: 200px;
+	width: 20.8333333333%/*200px*/;
 	margin: 0 auto;
 	font-family: courier, monospace;
 	background: #63DC90;
@@ -62,7 +63,6 @@ nav a {
 	color: #FF8500;
 	background: #63DC90;
 	display: block;
-	/*height: 88px;*/
 	line-height: 88px;
 	text-align: center;
 }
@@ -85,13 +85,14 @@ nav a:active {
 }
 
 #paintedturtle {
+	width: 41.14583333333333333%;
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
 
 #intro {
-	width: 565px;
+	width: 58.854166666666666667%/*565px*/;
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -119,7 +120,7 @@ nav a:active {
 
 /* Facts Content */
 #facts {
-	width: 565px;
+	width: 58.854166666666666667%/*565px*/;
 	float: left;
 }
 
@@ -133,7 +134,7 @@ section ul li {
 
 /* Resources Content */
 #resources {
-	width: 395px;
+	width: 41.14583333333333333%/*395px*/;
 	float: left;
 }
 
@@ -149,12 +150,12 @@ section ul li {
 	padding-bottom: 15px;
 	border-top: 3px solid;
 	clear: both;
-	width: 565px;
+	width: 58.854166666666666667%/*565px*/;
 	float: left;
 }
 
 #form {
-	width: 395px;
+	width: 41.14583333333333333%/*395px*/;
 	border-top: 3px solid;
 	float: left;
 	padding-bottom: 15px;
@@ -202,7 +203,7 @@ header p, footer p {
 #gallery ul {
 	list-style-type: none;
 	margin: 0 auto;
-	width: 905px;
+	width: 94.2708333333333333%/*905px*/;
 	padding: 5px;
 	overflow: hidden;	
 }
@@ -216,10 +217,10 @@ header p, footer p {
 	border: 10px solid #fff;
 	border-radius: 40px;
 	height: 200px;
-	width: 200px;
+	width: 20.83333333333333%/*200*/px;
 }
 
-/* Buttons have been removed due to tons of validation errors after copy pasting
+/* Buttons */
 .button {
 	margin: 0 auto;
 	display: inline-block;
@@ -263,4 +264,68 @@ header p, footer p {
 	color: #fcd3a5;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
-} */
+}
+
+/* Media Queries
+============================================================== */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#news {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		-o-column-count: 1;
+	}
+	
+	#facts {
+		width: 100%;
+	}
+	
+	#resources {
+		width: 100%;
+		border-top: solid 3px;
+	}
+	
+	#tips {
+		width: 100%;
+	}
+	
+	#form {
+		width: 100%;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#paintedturtle {
+		display: none;
+	}
+	
+	#news {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		-o-column-count: 1;
+	}
+	
+	#facts {
+		width: 100%;
+	}
+	
+	#resources {
+		width: 100%;
+		border-top: solid 3px;
+	}
+	
+	#tips {
+		width: 100%;
+	}
+	
+	#form {
+		width: 100%;
+	}
+}
