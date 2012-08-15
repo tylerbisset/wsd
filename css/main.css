@@ -1,6 +1,6 @@
 /* Global */
 body {
-	max-width: 100%/960px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	background-image: url('../images/greengradient.png');
@@ -15,6 +15,7 @@ body {
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.875em;
 	margin: 0;
 	padding: 15px 20px 0;
 	color: #fff;
@@ -29,9 +30,10 @@ h2 {
 
 p {
 	font-family: courier, monospace;
-	margin: 0 20px;
+	margin: 0 2.083333333333333%;
 }
 
+/* Logo and Benefit Statement */
 #head {
 	background: #63DC90;
 	width: 100%;
@@ -55,7 +57,7 @@ nav ul {
 }
 
 nav li {
-	width: 100px;
+	width: 50%;
 	background: #63DC90;
 	float: left;
 	display: inline-block;
@@ -229,7 +231,6 @@ header p, footer p {
 
 /* Buttons */
 .button {
-	margin: 0 auto;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
@@ -327,6 +328,14 @@ header p, footer p {
 	
 	#wrapper {
 		width: 100%;
+	}
+	
+	#head {
+		height: 176px;
+	}
+	
+	nav li {
+		float: none;
 	}
 	
 	#paintedturtle {
