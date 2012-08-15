@@ -1,6 +1,6 @@
 /* Global */
 body {
-	max-width: 960px;
+	max-width: 100%/960px;
 	margin: 0 auto;
 	padding: 0;
 	background-image: url('../images/greengradient.png');
@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -278,11 +278,14 @@ header p, footer p {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
-
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#wrapper {
+		width: 100%;
+	}
 	
 	#paintedturtle {
 		float: none;
@@ -321,6 +324,10 @@ header p, footer p {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+	
+	#wrapper {
+		width: 100%;
+	}
 	
 	#paintedturtle {
 		float: none;
