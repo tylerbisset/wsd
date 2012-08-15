@@ -32,11 +32,14 @@ p {
 	margin: 0 20px;
 }
 
-header {
+#head {
 	background: #63DC90;
-	width: 79.16666666667%/*760px*/;
-	height: 88px;
+	width: 100%;
 	border-bottom: solid;
+}
+
+header {
+	width: 79.16666666667% /*760px*/;
 	float: left;
 }
 
@@ -46,7 +49,6 @@ nav ul {
 	margin: 0 auto;
 	font-family: courier, monospace;
 	background: #63DC90;
-	border-bottom: solid;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -56,6 +58,7 @@ nav li {
 	width: 100px;
 	background: #63DC90;
 	float: left;
+	display: inline-block;
 }
 
 nav a {
@@ -85,10 +88,14 @@ nav a:active {
 }
 
 #paintedturtle {
-	width: 41.14583333333333333%;
 	float: left;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	width: 41.145833333333%;
+}
+
+#paintedturtle img {
+	max-width: 100%;
 }
 
 #intro {
@@ -270,12 +277,23 @@ header p, footer p {
 ============================================================== */
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
 
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#paintedturtle {
+		float: none;
+		width: 100%;
+	}
+	
+	#intro {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
 	#news {
 		-moz-column-count: 1;
 		-webkit-column-count: 1;
@@ -297,13 +315,21 @@ header p, footer p {
 	
 	#form {
 		width: 100%;
+		border-top: none;
 	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+	
 	#paintedturtle {
-		display: none;
+		float: none;
+		width: 100%;
+	}
+	
+	#intro {
+		width: 100%;
+		margin: 0 auto;
 	}
 	
 	#news {
@@ -327,5 +353,6 @@ header p, footer p {
 	
 	#form {
 		width: 100%;
+		border-top: none;
 	}
 }
