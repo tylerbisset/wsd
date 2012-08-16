@@ -206,7 +206,7 @@ header p, footer p {
 /* Image Gallery */
 #gallery {
 	background: #238B49;
-	padding-bottom: 15px;
+	padding-bottom: 1%/*15px;*/
 }
 
 #gallery ul {
@@ -219,14 +219,12 @@ header p, footer p {
 
 #gallery li {
 	float: left;
-	margin-left: 5px;
 }
 
 #gallery img {
 	border: 10px solid #fff;
 	border-radius: 40px;
-	height: 200px;
-	width: 20.83333333333333%/*200*/px;
+	width: 85%/*200px*/;
 }
 
 /* Buttons */
@@ -279,6 +277,20 @@ header p, footer p {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
+	
+	#wrapper {
+		width: 100%;
+	}
+	
+	#tips {
+		width: 100%;
+	}
+	
+	#form {
+		width: 100%;
+		border-top: none;
+	}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
