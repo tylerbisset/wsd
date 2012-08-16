@@ -315,7 +315,7 @@ header p, footer p {
 		margin: 0 auto;
 	}
 	
-	#news {
+	#news p {
 		-moz-column-count: 1;
 		-webkit-column-count: 1;
 		-o-column-count: 1;
@@ -370,7 +370,7 @@ header p, footer p {
 		margin: 0 auto;
 	}
 	
-	#news {
+	#news p {		
 		-moz-column-count: 1;
 		-webkit-column-count: 1;
 		-o-column-count: 1;
