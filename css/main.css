@@ -17,7 +17,7 @@ h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
 	font-size: 1.875em;
 	margin: 0;
-	padding: 15px 20px 0;
+	padding: 2% 3% 0;
 	color: #fff;
 	text-shadow: 2px 2px 2px #111;
 }
@@ -25,12 +25,13 @@ h1 {
 h2 {
 	font-family: 'Love Ya Like A Sister', cursive;
 	margin: 0;
-	padding: 15px 20px 0;
+	padding: 2% 3% 0;
 }
 
 p {
 	font-family: courier, monospace;
 	margin: 0 2.083333333333333%;
+	padding-left: 1%;
 }
 
 /* Logo and Benefit Statement */
@@ -91,8 +92,8 @@ nav a:active {
 
 #paintedturtle {
 	float: left;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 3%;
+	padding-top: 2%;
 	width: 41.145833333333%;
 }
 
@@ -103,8 +104,8 @@ nav a:active {
 #intro {
 	width: 58.854166666666666667%/*565px*/;
 	float: left;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 3%;
+	padding-top: 2%;
 }
 
 #intro h2, #intro p {
@@ -115,8 +116,7 @@ nav a:active {
 /* News Content */
 #news {
 	clear: both;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
+	padding-bottom: 3%;
 	border-bottom: 3px solid;
 	background: #238B49;
 }
@@ -156,7 +156,7 @@ section ul li {
 
 /* Sign Up Content */
 #tips {
-	padding-bottom: 15px;
+	padding-bottom: 3%;
 	border-top: 3px solid;
 	clear: both;
 	width: 58.854166666666666667%/*565px*/;
@@ -167,7 +167,7 @@ section ul li {
 	width: 41.14583333333333333%/*395px*/;
 	border-top: 3px solid;
 	float: left;
-	padding-bottom: 15px;
+	padding-bottom: 3%;
 }
 
 /* Footer */
@@ -179,7 +179,7 @@ footer {
 
 header p, footer p {
 	margin-bottom: 0;
-	padding-bottom: 15px;
+	padding-bottom: 1%;
 }
 
 /* Link States */
@@ -213,7 +213,7 @@ header p, footer p {
 	list-style-type: none;
 	margin: 0 auto;
 	width: 94.2708333333333333%/*905px*/;
-	padding: 5px;
+	padding: 1%;
 	overflow: hidden;	
 }
 
@@ -224,11 +224,12 @@ header p, footer p {
 #gallery img {
 	border: 10px solid #fff;
 	border-radius: 40px;
-	width: 85%/*200px*/;
+	width: 90%/*200px*/;
 }
 
 /* Buttons */
 .button {
+	margin: 0 5%;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
@@ -300,6 +301,10 @@ header p, footer p {
 		width: 100%;
 	}
 	
+	#head {
+		height: 95px;
+	}
+	
 	#paintedturtle {
 		float: none;
 		width: 100%;
@@ -353,6 +358,11 @@ header p, footer p {
 	#paintedturtle {
 		float: none;
 		width: 100%;
+	}
+	
+	#main {
+		background-image: none;
+		background: #238B49;
 	}
 	
 	#intro {
