@@ -1,4 +1,5 @@
-/* Global */
+/* Global 
+------------------------------------------------------ */
 body {
 	max-width: 100%;
 	margin: 0 auto;
@@ -34,7 +35,8 @@ p {
 	padding-left: 1%;
 }
 
-/* Logo and Benefit Statement */
+/* Logo and Benefit Statement 
+---------------------------------------------------------- */
 #head {
 	background: #63DC90;
 	width: 100%;
@@ -46,7 +48,8 @@ header {
 	float: left;
 }
 
-/* Main Navigation */
+/* Main Navigation 
+------------------------------------------------- */
 nav ul {
 	width: 20.8333333333%/*200px*/;
 	margin: 0 auto;
@@ -83,7 +86,8 @@ nav a:active {
 	background: #FF8500;
 }
 
-/* Introduction Content */
+/* Introduction Content 
+---------------------------------------------------- */
 #main {
 	background-image: url('../images/leaftexture.png');
 	border-bottom: 3px solid;
@@ -194,7 +198,34 @@ td {
 
 form {
 	font-family: courier, monospace;
+	margin-left: 3%;
+	padding-top: 3%;
 }
+
+input {
+	margin-bottom: 3%;
+	width: 90%;
+ }
+ 
+ label {
+ 	
+ }
+ 
+ #hear {
+ 	float: left;
+ 	padding-right: 0.3em;
+ 	margin-bottom: 3%;
+ }
+ 
+ #checkbox {
+ 	clear: both;
+ 	margin-bottom: 3%;
+ }
+ 
+ #contact_me {
+ 	float: left;
+ 	width: 5%;
+ }
 
 /* Footer
 ------------------------------------------------------- */
@@ -209,7 +240,8 @@ header p, footer p {
 	padding-bottom: 1%;
 }
 
-/* Link States */
+/* Link States 
+------------------------------------------------------ */
 #resources a, #news a {
 	text-decoration: none;
 }
@@ -230,7 +262,8 @@ header p, footer p {
 	color: #FF2C00;
 }
 
-/* Image Gallery */
+/* Image Gallery 
+-------------------------------------------------------- */
 #gallery {
 	background: #238B49;
 	padding-bottom: 1%/*15px;*/
@@ -254,9 +287,10 @@ header p, footer p {
 	width: 90%/*200px*/;
 }
 
-/* Buttons */
+/* Buttons 
+------------------------------------------------------- */
 .button {
-	margin: 0 5%;
+	margin: 0 1%;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
