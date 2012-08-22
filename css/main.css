@@ -127,7 +127,8 @@ nav a:active {
 	-o-column-count: 3;
 }
 
-/* Facts Content */
+/* Facts Content 
+------------------------------------------------------*/
 #facts {
 	width: 58.854166666666666667%/*565px*/;
 	float: left;
@@ -154,7 +155,8 @@ section ul li {
 	line-height: 30px;
 }
 
-/* Sign Up Content */
+/* Sign Up Content
+------------------------------------------------------ */
 #tips {
 	padding-bottom: 3%;
 	border-top: 3px solid;
@@ -163,6 +165,26 @@ section ul li {
 	float: left;
 }
 
+table {
+	font-family: courier, monospace;
+	margin: 0 auto;
+	border-collapse: collapse;
+	background: #238B49;
+	border-radius: 40px;	
+}
+
+th {
+	text-align: left;
+	padding: 0.3em 1.3em;
+}
+
+td {
+	padding: 0.3em;
+}
+
+/* Form
+----------------------------------------------------- */
+
 #form {
 	width: 41.14583333333333333%/*395px*/;
 	border-top: 3px solid;
@@ -170,7 +192,12 @@ section ul li {
 	padding-bottom: 3%;
 }
 
-/* Footer */
+form {
+	font-family: courier, monospace;
+}
+
+/* Footer
+------------------------------------------------------- */
 footer {
 	border-top: solid;
 	background: #63DC90;

@@ -78,13 +78,78 @@
 			<h2>Sign Up For Awesome Turtle Tips</h2>
 				<p>Sign up for our newsletter and you will receive benefits like the <em>Species of the Week</em>
 				and other great information about turtles and turtle care.</p>
+				<table>
+					<tr>
+						<th>Basic Membership</th>
+						<th>Pro Membership</th>
+					</tr>
+					<tr>
+						<td>Free</td>
+						<td>$1.99/Month</td>
+					</tr>
+					<tr>
+						<td>Weekly Email Blasts</td>
+						<td>Daily Email Blasts</td>
+					</tr>
+					<tr>
+						<td>Limited Ads</td>
+						<td>Zero Ads</td>
+					</tr>
+					<tr>
+						<td>Species of the Week</td>
+						<td>Species of the Week and<br>Turtle of the Day</td>
+					</tr>
+					<tr>
+						<td><!-- Placeholder --></td>
+						<td>Much Much More!</td>
+					</tr>
+				</table>
 		</div>
 		
 		<div id='form'>
-			<h2>Sign Up Form</h2>
-				<p>This is where the sign up form will go. Sign up here!</p>
-				<a href="index.html" class="button orange">Submit</a>
-		</div>
+			<h2>Sign Up Here!</h2>
+				<p>Please complete the form below to sign up for our email list.</p>
+				<form method="get" action="mailto:tylerbisset@fullsail.edu">
+				
+					<div>
+						<label for="name_first">First Name</label>
+						<input type="text" name="name_first" id="name_first" />
+					</div>
+					
+					<div>
+						<label for="name_last">Last Name</label>
+						<input type="text" name="name_last" id="name_last" />
+					</div>
+					
+					<div>
+						<label for="email">Email Address</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					
+					<div>
+						<label for="hear">How did you hear about us?</label>
+					</div>
+					
+					<div>
+						<select name="hear" id="hear">
+							<option>Search Engine</option>
+							<option>Advertisement</option>
+							<option>Friend</option>
+							<option>Other</option>
+						</select>
+					</div>
+					
+					<div>
+						<input type="checkbox" name="contact_me" id="contact_me" />
+						<p>Yes, send me information on similar sites and services that may interest me.</p>					
+					</div>
+					
+					<div>
+						<button type="submit" name="submit" class="button orange">Submit</button>
+					</div>
+					
+				</form>
+		</div><!-- Form -->
 				
 		<footer>
 			<h2>Thanks for Visiting!</h2>
