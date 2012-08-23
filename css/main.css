@@ -171,19 +171,30 @@ section ul li {
 
 table {
 	font-family: courier, monospace;
-	margin: 0 auto;
+	margin: 3% auto;
+	width: 70%;
 	border-collapse: collapse;
+	border-radius: 40px;
 	background: #238B49;
-	border-radius: 40px;	
+	-mox-box-shadow: 2px 2px 2px;
+	-webkit-box-shadow: 2px 2px 2px;
+	box-shadow: 2px 2px 2px;	
 }
 
 th {
 	text-align: left;
-	padding: 0.3em 1.3em;
+	padding: 1.5em 0.5em 0.3em;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.25em;
 }
 
 td {
-	padding: 0.3em;
+	padding: 0.5em 0.5em;
+	color: #fff;
+}
+
+#table_bottom {
+	padding-bottom: 1.5em;
 }
 
 /* Form
@@ -204,11 +215,20 @@ form {
 
 input {
 	margin-bottom: 3%;
-	width: 90%;
+	width: 95%;
+	-moz-box-shadow: 2px 2px 2px;
+	-webkit-box-shadow: 2px 2px 2px;
+	box-shadow: 2px 2px 2px;
  }
  
- label {
- 	
+ input:focus {
+ 	background: #63DC90;
+ }
+ 
+ #membership {
+ 	float: left;
+ 	padding-right: 0.3em;
+ 	margin-bottom: 3%;
  }
  
  #hear {
@@ -224,7 +244,7 @@ input {
  
  #contact_me {
  	float: left;
- 	width: 5%;
+ 	width: 3%;
  }
 
 /* Footer
