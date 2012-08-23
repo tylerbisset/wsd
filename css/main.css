@@ -231,9 +231,20 @@ input {
  	margin-bottom: 3%;
  }
  
+ #membership_select {
+ 	clear: both;
+ 	margin-bottom: 3%;
+ }
+ 
  #hear {
+ 	clear: both;
  	float: left;
  	padding-right: 0.3em;
+ 	margin-bottom: 3%;
+ }
+ 
+ #hear_select {
+ 	float: left;
  	margin-bottom: 3%;
  }
  
